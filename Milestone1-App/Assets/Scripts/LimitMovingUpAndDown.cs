@@ -1,11 +1,15 @@
 using System;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class PreventMovingAboveStartPosition : MonoBehaviour
 {
     [SerializeField] private float upLimit;
     [SerializeField] private float downLimit;
-
+    [SerializeField] private UnityEvent onDownLimit;
+    [SerializeField] private UnityEvent onUpLimit;
+    
+    
     private float startY;
 
     private void Start()
@@ -19,10 +23,12 @@ public class PreventMovingAboveStartPosition : MonoBehaviour
         if (differenceToStart < -upLimit)
         {
             transform.position = new Vector3(transform.position.x, startY + upLimit, transform.position.z);
+            onUpLimit.Invoke();
         }
         if (differenceToStart > downLimit)
         {
             transform.position = new Vector3(transform.position.x, startY - downLimit, transform.position.z);
+            onDownLimit.Invoke();
         }
         
     }
