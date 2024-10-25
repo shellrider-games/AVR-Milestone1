@@ -140,6 +140,10 @@ PrefabInstance:
       value: Button
       objectReference: {fileID: 0}
     - target: {fileID: 6821887585681450876, guid: 919f3d9098eb4204caec57d744c0191b, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6821887585681450876, guid: 919f3d9098eb4204caec57d744c0191b, type: 3}
       propertyPath: m_TagString
       value: Button
       objectReference: {fileID: 0}
