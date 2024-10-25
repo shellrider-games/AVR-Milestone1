@@ -541,7 +541,7 @@ GameObject:
   m_Component:
   - component: {fileID: 232802373}
   - component: {fileID: 232802374}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Physics Interactor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3094,7 +3094,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1327270958}
   - component: {fileID: 1327270959}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Physics Interactor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
