@@ -119,6 +119,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!4 &4570359 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8588201734045020200, guid: 5fbcb0ec305c0ea4396a507934c0234c, type: 3}
+  m_PrefabInstance: {fileID: 1431940307}
+  m_PrefabAsset: {fileID: 0}
 --- !u!20 &61863665
 Camera:
   m_ObjectHideFlags: 0
@@ -3957,7 +3962,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1599489683}
     m_Modifications:
     - target: {fileID: 8588201734045020200, guid: 5fbcb0ec305c0ea4396a507934c0234c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3977,15 +3982,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8588201734045020200, guid: 5fbcb0ec305c0ea4396a507934c0234c, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 8588201734045020200, guid: 5fbcb0ec305c0ea4396a507934c0234c, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 8588201734045020200, guid: 5fbcb0ec305c0ea4396a507934c0234c, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 8588201734045020200, guid: 5fbcb0ec305c0ea4396a507934c0234c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -4418,6 +4423,7 @@ Transform:
   - {fileID: 1024586542}
   - {fileID: 1889582306}
   - {fileID: 1391805400}
+  - {fileID: 4570359}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1727338121
@@ -12633,4 +12639,3 @@ SceneRoots:
   - {fileID: 946495781}
   - {fileID: 1728244596}
   - {fileID: 1717954560199471016}
-  - {fileID: 1431940307}
