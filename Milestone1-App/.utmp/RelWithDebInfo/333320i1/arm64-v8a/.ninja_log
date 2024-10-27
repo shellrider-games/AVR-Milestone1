@@ -1,0 +1,10 @@
+# ninja log v5
+58	2791	7517282272722864	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	b5b10fbb657a717f
+24	2907	7517282273642939	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	e34fe1bcf4329d75
+106	3001	7517282274689702	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	21559896d6750679
+69	3045	7517282275368446	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	8fcd5d78f90e9580
+1	3230	7517282277047154	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	c27ba8d8fd77e482
+93	3264	7517282277523502	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	8f47cacf9d880480
+78	3579	7517282280708133	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	c6dbc031af48953
+37	3945	7517282284361593	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	239e76524a9b7ca5
+3946	4200	7517282286885345	D:/git/AVR-Milestone1/Milestone1-App/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/333320i1/obj/arm64-v8a/libgame.so	a2534cfca61f3624
