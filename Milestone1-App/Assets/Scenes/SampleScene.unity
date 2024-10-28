@@ -20,7 +20,7 @@ RenderSettings:
   m_FogDensity: 0.01
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
-  m_AmbientSkyColor: {r: 0, g: 0, b: 0, a: 1}
+  m_AmbientSkyColor: {r: 0.01886791, g: 0.01886791, b: 0.01886791, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 1
@@ -282,7 +282,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 92203822}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -742,7 +742,7 @@ MeshRenderer:
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
   m_MotionVectors: 1
-  m_LightProbeUsage: 1
+  m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
@@ -760,7 +760,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 3
-  m_ReceiveGI: 2
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -1463,7 +1463,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a20ea7771cebbda4696ef82ef45481a0, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.88
+      value: 0.854
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a20ea7771cebbda4696ef82ef45481a0, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2845,8 +2845,8 @@ ReflectionProbe:
   m_TimeSlicingMode: 0
   m_Resolution: 128
   m_UpdateFrequency: 0
-  m_BoxSize: {x: 2.2206087, y: 2.2971916, z: 9.056926}
-  m_BoxOffset: {x: 0, y: 0.2961416, z: -3.8848271}
+  m_BoxSize: {x: 2.1096795, y: 2.1033692, z: 2.1181872}
+  m_BoxOffset: {x: -0.011224151, y: 0.1399734, z: -0.4154569}
   m_NearClip: 0.01
   m_FarClip: 20
   m_ShadowDistance: 100
@@ -4631,10 +4631,10 @@ LightProbeGroup:
   m_GameObject: {fileID: 1347508121}
   m_Enabled: 1
   m_SourcePositions:
-  - {x: 4.6038833, y: 2.7938833, z: 4.376563}
-  - {x: 4.6038833, y: 2.9040933, z: -4.712054}
-  - {x: 4.6038833, y: 0.22073185, z: 4.376563}
-  - {x: 4.6038833, y: 0.22073185, z: -4.712054}
+  - {x: 2.3602464, y: 2.7938833, z: 2.6163921}
+  - {x: 2.3602464, y: 2.9040933, z: -2.801654}
+  - {x: 2.3602464, y: 0.22073185, z: 2.6163921}
+  - {x: 2.3602464, y: 0.22073185, z: -2.801654}
   - {x: -1.8645115, y: 2.9089518, z: 1}
   - {x: -1.8645115, y: 2.9089518, z: -1}
   - {x: -1.8645115, y: 0.22073185, z: 1}
@@ -4653,7 +4653,7 @@ LightProbeGroup:
   - {x: -4.456304, y: 0.22073185, z: 4.6935287}
   - {x: -4.456304, y: 2.9089518, z: 4.6935287}
   - {x: -3.7972245, y: 2.1912847, z: 2.3061314}
-  - {x: -2.0015726, y: 0.274115, z: 2.3415587}
+  - {x: -1.8424345, y: 0.274115, z: 2.3415587}
   - {x: -4.1313477, y: 0.274115, z: 2.3415587}
   - {x: -4.1313477, y: 0.274115, z: 3.9817777}
   - {x: -3.7890072, y: 2.1912847, z: 3.9817777}
@@ -4667,12 +4667,24 @@ LightProbeGroup:
   - {x: -3.7972245, y: 1.8777506, z: 2.3061314}
   - {x: -3.7890072, y: 0.274115, z: 2.3415587}
   - {x: -3.7890072, y: 0.274115, z: 3.9817777}
-  - {x: -2.3422322, y: 0.274115, z: 2.3415587}
+  - {x: -2.1168165, y: 0.274115, z: 2.3415587}
   - {x: -2.2166035, y: 1.8777506, z: 2.3061314}
   - {x: -2.2166035, y: 1.8777506, z: 3.9817777}
-  - {x: -1.9112248, y: 0.22073185, z: 4.229644}
+  - {x: -2.101941, y: 0.22073185, z: 4.215375}
   - {x: -4.456304, y: 0.22073185, z: -1}
   - {x: -4.456304, y: 2.9089518, z: -1}
+  - {x: 4.6038833, y: 2.7938833, z: 2.6163921}
+  - {x: 4.6038833, y: 0.22073185, z: 2.6163921}
+  - {x: 4.6038833, y: 0.22073185, z: -2.801654}
+  - {x: 4.6038833, y: 2.9040933, z: -2.801654}
+  - {x: 4.6038833, y: 0.22073185, z: -4.712054}
+  - {x: 2.3602464, y: 0.22073185, z: -4.712054}
+  - {x: 4.6038833, y: 2.9040933, z: -4.712054}
+  - {x: 2.3602464, y: 2.9040933, z: -4.712054}
+  - {x: 2.3602464, y: 0.22073185, z: 4.5635195}
+  - {x: 4.6038833, y: 0.22073185, z: 4.5635195}
+  - {x: 4.6038833, y: 2.7938833, z: 4.5635195}
+  - {x: 2.3602464, y: 2.7938833, z: 4.5635195}
   m_Dering: 1
 --- !u!1 &1391805399
 GameObject:
@@ -5320,7 +5332,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1487348669}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
